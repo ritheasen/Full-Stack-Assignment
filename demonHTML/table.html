@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+    </head>
+    <body>
+        <style>
+                table, th, td {
+        border:1px solid black;
+        /* hide double border */
+        border-collapse: collapse;
+        /* style the border */
+        border-style: dashed;
+        /* color the border */
+        border-color: brown;
+        }
+
+        th{
+            background-color: beige;
+            padding: 10px ;
+        }
+
+        td{
+        text-align: center;
+        background-color: aquamarine;
+        padding: 10px 40px 20px 30px;
+        }
+        </style>
+        
+
+        <h2>A basic HTML table</h2>
+
+        <table style="width:50%">
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Work Country</th>
+            <th>Home Country</th>
+            <th>Phone number</th>
+        </tr>
+        <tr style="height: 50px;">
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td colspan="2">Germany</td>
+            <td>12345</td>
+        </tr>
+        <tr style="height: 50px;">
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td colspan="2">Mexico</td>
+            <td>12345</td>
+        </tr>
+        <tr style="height: 50px;">
+            <td>Google</td>
+            <td>Larry Page</td>
+            <td>Canada</td>
+            <td>China</td>
+            <td>12345</td>
+        </tr>
+        <tr style="height: 50px;">
+            <td rowspan="3">Microsoft</td>
+            <td>Justin Beiber</td>
+            <td>Taiwan</td>
+            <td>Singapore</td>
+            <td>12345</td>
+        </tr>
+        <tr style="height: 50px;">
+            <td>Taylor Swift</td>
+            <td>Indonesia</td>
+            <td>Vietnam</td>
+            <td>12345</td>
+        </tr>
+        <tr style="height: 50px;">
+            <td>Naruto</td>
+            <td>Japan</td>
+            <td>Korea</td>
+            <td>12345</td>
+        </tr>
+        </table>
+
+<p>To understand the example better, we have added borders to the
+    </body>
+    </html>

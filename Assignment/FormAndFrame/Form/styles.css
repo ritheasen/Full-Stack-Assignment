@@ -1,0 +1,22 @@
+body, h1{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.addressInput{
+    line-height: 50px;
+}
+
+.btn{
+    background-color: grey;
+}
+
+.btn:hover{
+    background-color: blue;
+}
+
+
+h1:hover{
+    font-style: italic;
+}
