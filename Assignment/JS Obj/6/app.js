@@ -24,12 +24,12 @@ function formValidation(){
     if (!isNaN(memNum)){
         if (passW.length > 4){
             alert("All validation is correct");
-            return true;
+            // return true;
         }
         else{
             alert("Password must be longer than 4 characters !");
             memNum.focus();
-            return false;
+            // return false;
             
         }
     }
@@ -37,7 +37,7 @@ function formValidation(){
         
         alert("Member number must be a number !");
         passW.focus();
-        return false;
+        // return false;
     }
 
 }
